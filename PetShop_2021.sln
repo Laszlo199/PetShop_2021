@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrashCourse_PetShop_2021", "CrashCourse_PetShop_2021\CrashCourse_PetShop_2021.csproj", "{B056BADE-8A93-421C-99E4-F8D7B8DF358A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0AFDD385-A4AB-439B-908D-3B5298AA08A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E1EC3898-1C25-4626-9644-C7F6C55ACA02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E751C331-BE15-4146-8DF3-9475180A4BDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B056BADE-8A93-421C-99E4-F8D7B8DF358A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B056BADE-8A93-421C-99E4-F8D7B8DF358A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B056BADE-8A93-421C-99E4-F8D7B8DF358A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B056BADE-8A93-421C-99E4-F8D7B8DF358A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
