@@ -18,9 +18,9 @@ namespace PetShop.Domain.Services
             return _repo.GetPetsFromId(id);
         }
 
-        public List<Pets> FindAll(Pets pets)
+        public List<Pets> FindAll()
         {
-            return _repo.FindAll(pets);
+            return _repo.FindAll();
         }
 
         public Pets Creat(Pets pets)

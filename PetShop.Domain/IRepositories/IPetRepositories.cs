@@ -6,7 +6,7 @@ namespace PetShop.Domain.IRepositories
     public interface IPetRepositories
     {
         Pets GetPetsFromId(int id);
-        List<Pets> FindAll(Pets pets);
+        List<Pets> FindAll();
         Pets Creat(Pets pets);
         Pets Delete(int id);
         Pets UpdatePets(Pets petsUpdated);

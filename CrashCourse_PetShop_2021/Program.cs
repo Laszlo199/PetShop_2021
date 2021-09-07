@@ -11,18 +11,6 @@ namespace CrashCourse_PetShop_2021
     {
         static void Main(string[] args)
         {
-            /*var serviceCollection = new ServiceCollection();
-            serviceCollection.AddScoped<IPetRepositories, PetRepositories>();
-            serviceCollection.AddScoped<IPetTypeRepositories, PetTypeRepositories>();
-            serviceCollection.AddScoped<IPetServices, PetService>();
-            serviceCollection.AddScoped<IPetServices, PetService>();
-            serviceCollection.AddScoped<IMenu, Menu>();
-
-            var serviceProvider = serviceCollection.BuildServiceProvider();
-            var menu = serviceProvider.GetRequiredService<IMenu>();
-            */
-            
-            
             IPetRepositories petRepo = new PetRepositories();
             IPetTypeRepositories petTypeRepo = new PetTypeRepositories();
             

@@ -28,7 +28,7 @@ namespace PetShop.Infrastructure.Data.Repositories
                 Id = 3,
                 Name = "Goat"
             };
-
+            
             _petTypesList.AddRange(new List<PetTypes>
             {
                 cat,

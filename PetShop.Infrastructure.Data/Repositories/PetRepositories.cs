@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using PetShop.Core.Entities;
 using PetShop.Domain.IRepositories;
 
@@ -29,7 +30,7 @@ namespace PetShop.Infrastructure.Data.Repositories
                 return null;
             }
 
-            public List<Pets> FindAll(Pets pets)
+            public List<Pets> FindAll()
             {
                 return _petsTable;
             }
