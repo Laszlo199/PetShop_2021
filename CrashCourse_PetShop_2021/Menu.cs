@@ -5,6 +5,9 @@ using PetShop.Core.IServices;
 
 namespace CrashCourse_PetShop_2021
 {
+    //delete 
+    //Update
+    
     public class Menu: IMenu
     {
         private IPetServices _services;
@@ -33,6 +36,12 @@ namespace CrashCourse_PetShop_2021
                     case 2:
                        CreateNewPet();
                         break;
+                    case 3:
+                        DeletePet();
+                        break;
+                    case 4:
+                        UpdatePet();
+                        break;
                 }
 
                 Console.ReadKey();
@@ -40,9 +49,21 @@ namespace CrashCourse_PetShop_2021
 
         }
 
+        private void UpdatePet()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void DeletePet()
+        {
+            throw new NotImplementedException();
+        }
+
         private void CreateNewPet()
         {
+            Console.WriteLine("ADD NEW PET:");
             //Name
+            Console.WriteLine("\n");
             Console.WriteLine(StringConstants.PetName);
             string petName = Console.ReadLine();
             //Type
@@ -90,8 +111,12 @@ namespace CrashCourse_PetShop_2021
             foreach (Pets pets in pet)
             {
                 Console.WriteLine($"ID: {pets.Id} \nName: {pets.Name} \nType: {pets.Type.Name} \nBirthdate: {pets.Birthdate} \nColor: {pets.Color} \nPrice: {pets.Price}.dkk \nSoldDate: {pets.SoldDate}");
+                
+                Console.WriteLine("\n");
+                Console.WriteLine("------------------------");
+                Console.WriteLine("\n");
             }
-            Console.WriteLine("------------------------");
+            
             Console.WriteLine("\n");
         }
 
@@ -120,6 +145,7 @@ namespace CrashCourse_PetShop_2021
             Console.WriteLine(StringConstants.DeletePet);
             Console.WriteLine(StringConstants.EditPet);
             Console.WriteLine(StringConstants.Exit);
+            Console.WriteLine("\n");
         }
 
         public void GetAllPetTypes()
